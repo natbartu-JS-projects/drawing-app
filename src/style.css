@@ -21,7 +21,6 @@ canvas {
 
 .toolbox {
   background-color: #333;
-  border: 1px solid rgb(108, 96, 136);
   display: flex;
   width: 804px;
   padding: 2rem;
@@ -39,6 +38,7 @@ canvas {
   margin: 0.50rem;
   padding: 0.50rem;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .toolbox > *:last-child {
