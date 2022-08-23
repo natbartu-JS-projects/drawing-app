@@ -8,3 +8,5 @@ I had lots of learning and fun project.
 The API used on the application is from [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API.)
 
 ## Application Preview
+
+![gif preview](assets/drawing-app.gif)
