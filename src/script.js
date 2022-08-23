@@ -8,7 +8,7 @@ const clearEl = document.getElementById("clear");
 const ctx = canvas.getContext("2d");
 
 let size = 10;
-let color = "black";
+colorEl.value = "black";
 let isPressed = false;
 let x;
 let y;
@@ -21,7 +21,7 @@ canvas.addEventListener("mousedown", (e) => {
 });
 
 canvas.addEventListener("mouseup", (e) => {
-  isPressed = true;
+  isPressed = false;
 
   x = undefined;
   y = undefined;
